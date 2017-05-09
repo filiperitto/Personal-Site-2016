@@ -1,0 +1,257 @@
+#sobre {
+    background: #222222;
+}
+#sobre .capa{
+    background: #222222;
+    cursor: default;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    min-height: 400px;
+    text-align: center;
+}
+#sobre .box-profile{
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 300px;
+    width: 100%;
+    max-width: 360px;
+    max-height: 360px;
+    border: 20px solid #222222;
+    top: -180px;
+    position: relative;
+    margin-bottom: -140px;
+}
+#sobre .box-profile img {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -5px;
+}
+#sobre h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+#sobre h1 span {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 35px;
+}
+#sobre .hadline {
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto 60px auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.5);
+    position: relative;
+}
+#sobre .hadline span {
+    color: #fff;
+}
+#sobre .hadline h1 {
+    font-size: 73px;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.1;
+    color: #fff;
+    font-family: "bitter", sans-serif;
+    font-weight: 100;
+}
+#sobre .gostos .hadline h1,
+#sobre .resume .hadline h1 {
+    color: #fff;
+}
+#sobre .description {
+    background: #171717;
+    padding-bottom: 80px;
+    visibility: hidden;
+}
+#sobre .somewords {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background: #5d937e;
+    background: url(../../img/bg-me-sobre.jpg) right;
+    background-size: cover;
+}
+#sobre .somewords #animation-container {
+    visibility: hidden;
+}
+#sobre .somewords .divisoria {
+    border-radius: 50px;
+    background: #5d937e;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    z-index: 111;
+    margin-top: -80px;
+    margin-bottom: 70px;
+}
+#sobre .somewords p {
+    width: 100%;
+    max-width: 960px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+}
+
+#sobre .gostos,
+#sobre .resume{
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background: #222;
+    float: left;
+}
+#sobre .resume{
+    padding: 100px 0;
+}
+#sobre .gostos .divisoria {
+    border-radius: 50px;
+    background: #222;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    z-index: 111;
+    margin-top: -80px;
+    margin-bottom: 70px;
+}
+#sobre .gostos p {
+    width: 100%;
+    max-width: 1160px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#sobre .gostos p a {
+    font-family: 'Bitter', Lucida Bright, serif;
+    font-weight: 800;
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,0.25);
+    -webkit-transition: all 0.25s 0s ease;
+    transition: all 0.25s 0s ease;
+}
+
+#sobre .resume .resume_container{
+    float: left;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    clear: both;
+}
+
+#sobre .resume .resume_container ul.resume_list{
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#sobre .resume .resume_container ul.resume_list li{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #3a3a3a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col{
+    float: left;
+    margin-bottom: 0 !important;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-company{
+    width: 100%;
+    margin-bottom: 20px;
+    width: 280px;
+    padding-right: 40px;
+    margin-right: 40px;
+    border-right: 1px solid #1c1c1c;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-company .resume_company,
+#sobre .resume .resume_container ul.resume_list li .col-company .resume_date,
+#sobre .resume .resume_container ul.resume_list li .col-position .resume_title{
+    margin: 11px 0 0;
+    font-size: 18px;
+    color: #999;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-company .resume_company{
+    margin: 11px 0 0;
+    font-size: 18px;
+    color: #999;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-company .resume_date{
+    font-size: 13px;
+    color: #3c3c3c;
+    position: relative;
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-position{
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-position .resume_title{
+    margin: 0;
+    font-size: 29px;
+    color: #fff;
+    clear: both;
+    margin-bottom: 10px;
+
+}
+
+#sobre .resume .resume_container ul.resume_list li .col-position .resume_link{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+@media all and (max-width: 600px){
+    #sobre .capa {
+    min-height: 310px;
+}
+    #sobre .box-profile {
+    max-width: 300px;
+    max-height: 300px;
+    top: -150px;
+}
+    #sobre h1 {
+    font-size: 35px;
+}
+    #sobre h1 span {
+    font-size: 25px;
+}
+    #sobre .somewords p {
+    font-size: 18px;
+    line-height: 30px;
+}
+    #sobre .gostos p {
+    font-size: 20px;
+    line-height: 45px;
+}
+}

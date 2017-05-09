@@ -1,0 +1,193 @@
+#hero-project.blog-default{
+    height: 70vh;
+}
+#hero-project.blog-default img {
+    /* width: 100%; */
+    /* height: auto; */
+    /* position: absolute; */
+    /* top: -16%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#content-post{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQIW2NkQAXGjEh8YwYGhrMwATAHJAkSgHNAAgBPrgM4NDOmCgAAAABJRU5ErkJggg==) repeat;
+    background: #222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#content-post .post-body{
+    background: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 70px;
+}
+
+#content-post .post-body .mockup-img  {
+	padding-top: 30px;
+}
+#content-post .post-body .mockup-img .border {
+    margin-top: -15px;
+    pointer-events: none;
+}
+#content-post .post-body .h3-container {
+    position: absolute;
+    padding-left: 20px;
+    top: -62px;
+    left: 0;
+    z-index: 3;
+}
+#content-post .post-body .h3-container h3 {
+    font-size: 62px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+	line-height: 70px;
+    text-transform: uppercase;
+}
+
+#content-post .post-body .wrap{
+    padding: 0 30px;
+}
+#content-post .post-body .wrap p{
+    width: 87%;
+    margin-left: 13%;
+}
+#content-post .post-body .wrap h1,
+#content-post .post-body .wrap h2,
+#content-post .post-body .wrap h3,
+#content-post .post-body .wrap h4,
+#content-post .post-body .wrap h5,
+#content-post .post-body .wrap h6 {
+    color: #fff;
+    background: #5d937e;
+    font-weight: 600;
+    display: table;
+    padding: 5px 15px;
+    margin: 0 0 15px;
+    margin-left: 13%;
+}
+#content-post .post-body .wrap p a {
+    box-shadow: inset 0px -8px 0px 0px rgb(93, 147, 126);
+    display: inline-block;
+    color: #fff;
+    padding: 0 5px;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+#content-post .post-body .wrap p a:hover {
+    box-shadow: inset 0px -21px 0px 0px rgb(93, 147, 126);
+}
+
+#content-post .post-body .wrap .alignnone{
+    width: 121%;
+    height: auto;
+    margin: 1.5em 0;
+    margin-left: -3%;
+    margin-left: -17.9%;
+}
+#content-post .post-body .wrap .alignleft{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 1.5em 1.5em 0.5em 0;
+    margin-left: -15%;
+}
+#content-post .post-body .wrap .alignright{
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 1.5em 0em 0.5em 1.5em;
+    /* margin-right: -15%; */
+}
+
+#content-post .post-body .wrap blockquote {
+    /* float: left; */
+    /* width: 45%; */
+    display: table;
+    height: 100%;
+    /* margin-top: 50px; */
+    position: relative;
+    /* margin-left: -5.2%; */
+    padding: 15px 0 5px;
+    padding-left: 4.2%;
+    background: #464646;
+    border-left: none;
+    margin: 25px 0 45px;
+}
+
+#content-post .post-body .wrap blockquote h1,
+#content-post .post-body .wrap blockquote h2,
+#content-post .post-body .wrap blockquote h3,
+#content-post .post-body .wrap blockquote h4,
+#content-post .post-body .wrap blockquote h5,
+#content-post .post-body .wrap blockquote h6{
+    margin-bottom: -30px;
+    margin-left: 0;
+}
+
+#content-post .post-body .wrap blockquote p {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 90%; */
+    height: 100%;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #a2a2a2;
+    padding: 20px 20px 40px;
+    /* opacity: 0.1; */
+    margin: 20px 0 -20px 0;
+}
+
+#content-post .post-body .wrap .flex-video {
+    width: 105.3%;
+    margin-left: -2.55%;
+}
+
+#comment_post {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #222;
+}
+#comment_post #comments,
+#comment_post #disqus_thread{
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: #333;
+    padding: 2%;
+}
+
+
+#frame-box {
+    overflow: hidden;
+}
+
+#frame-box iframe {
+    width: 100%;
+    height: 100vh;
+}
+#frame-box img {
+    opacity: 0;
+    position: fixed;
+    z-index: -999;
+}
